@@ -1,0 +1,136 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the logo */
+.logo {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img {
+    max-width: 150px; /* Adjust the width as needed */
+}
+
+/* Style for the "About Us" section */
+#about {
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about img {
+    max-width: 100%; /* Ensure the image scales within the container */
+    margin: 20px 0; /* Add some vertical spacing below the image */
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+
+
+/* Style for the "Portfolio" section */
+#portfolio {
+    background-color: #fff;
+    padding: 30px;
+}
+
+#portfolio h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.portfolio-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-project {
+    flex: 0 0 calc(50% - 10px); /* Two projects per row with 10px spacing in between */
+    margin-bottom: 20px;
+}
+
+.portfolio-project img {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.portfolio-project a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+}
